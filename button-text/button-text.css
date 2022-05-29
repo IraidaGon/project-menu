@@ -1,0 +1,28 @@
+.button-text {
+    font-family: 'TT Lakes';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    background-color: inherit;
+    padding: 2px;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.button-text:hover {
+    background-color: rgb(65, 246, 215, 0.2);
+}
+
+.button-text:focus {
+    border-style: solid;
+    border-color: #B8FFEC;
+    border: 2px 2px 2px 4px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    outline: none;
+}
